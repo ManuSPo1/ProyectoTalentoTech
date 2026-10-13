@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Isometra', sans-serif;
+}
+
+/* Tipografía y encabezados */
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4, p {
+    font-size: 15px;
+}
+
+body {
+    background-color: #e9e6e6;
+    line-height: 1.4;
+    color: #333333;
+    width: 100%;
+    
+}
+
+/* Encabezado fijo (Header) */
+.header {
+    background-color: #cfcfcf9c;
+    width: 100%;
+    height: 180px; 
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+/* Sección principal (Hero) */
+.hero {
+    background-image: url("./img/cafeteriaimg.jpg"); 
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.hero .hero-div {
+    height: 70%;
+    width: 50%;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Fondo para legibilidad del texto sobre imagen */
+    padding: 30px;
+    
+}
+
+.hero .hero-div h2 {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.hero .hero-div p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #e2dcdcb0;
+}
+
+.hero .hero-div h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.hero .hero-div button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #9f84dd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top : 15px;
+    border-radius: 5px;
+   
+}
+
+.hero .hero-div a {
+    text-decoration: none;
+}
+
